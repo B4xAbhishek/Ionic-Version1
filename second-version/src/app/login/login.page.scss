@@ -1,0 +1,63 @@
+ion-title{
+    text-align: center;
+}
+.background-image{
+    --background: url(../home/assets/back_3.png) no-repeat center center fixed;
+    background-size: cover;
+}
+.content{
+    align-content: center;
+    justify-content: center;
+    position: relative;;
+    text-align: center;
+    margin-top: 150px;
+}
+.action-button{
+
+    width: 250px;
+}
+
+.signin-text{
+    font-size: medium;
+}
+.signup-text{
+    text-transform: none;
+}
+ion-input{
+
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    
+}
+ion-checkbox{
+    background-color: lightcyan;
+    border-radius: 10px;
+    --height : 10px;
+    --weight : 10px;
+    --background-checked: #969292;
+}
+.line{
+    border-bottom: 1px solid grey;
+    margin-bottom: inherit;
+}
+.fbbutton{
+    --background: #3b5998;
+    border-radius: 6px;
+    margin-top: 10px;  
+    width: 250px;
+    
+}
+.gbutton{
+    --background: #ea4335;
+    border-radius: 6px;
+    margin-top: 10px;  
+    width: 250px;
+}
+.cbutton{
+    --background: #079732;
+    border-radius: 6px;
+    margin-top: 10px;  
+    width: 250px;
+}

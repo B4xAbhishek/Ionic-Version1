@@ -1,0 +1,32 @@
+ion-title{
+    text-align: center;
+}
+.background-image{
+    --background: url(../home/assets/back_3.png) no-repeat center center fixed;
+    background-size: cover;
+}
+.content{
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin-top: 150px;
+}
+.action-button{
+
+    width: 250px;
+}
+
+.signin-text{
+    text-transform: none;
+}
+.signup-text{
+    font-size: medium;
+}
+ion-input{
+
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+}

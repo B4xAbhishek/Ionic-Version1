@@ -1,9 +1,25 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>results</ion-title>
+  <ion-toolbar style="--background: rgb(65, 119, 218);">
+    <ion-buttons slot="end">
+      <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+    </ion-buttons>
+    <ion-item style="width: 300px;--background: rgb(78, 126, 216);">
+      <ion-label>Language</ion-label>
+      <ion-select placeholder="Select" style="width: 250px;">
+        <ion-select-option value="e">English</ion-select-option>
+        <ion-select-option value="h">Hindi</ion-select-option>
+        <ion-select-option value="b">Bengali</ion-select-option>
+      </ion-select>
+    </ion-item>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
+<ion-content class = "background-image">
+  <div id="container">
+    <strong>Thank you this is your result</strong>
+    <p>Consult doctor always to cross check</p>
+  </div>
+  <div class="button-pos">
+      <ion-button expand="block" shape = "round" href=login> Logout </ion-button>
+   </div>
 </ion-content>

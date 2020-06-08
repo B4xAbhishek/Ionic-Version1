@@ -1,9 +1,34 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>welcome</ion-title>
+  <ion-toolbar style="--background: rgb(65, 119, 218);">
+    <ion-buttons slot="end">
+      <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+    </ion-buttons>
+    <ion-item style="width: 300px;--background: rgb(78, 126, 216);">
+      <ion-label>Language</ion-label>
+      <ion-select placeholder="Select" style="width: 250px;">
+        <ion-select-option value="e">English</ion-select-option>
+        <ion-select-option value="h">Hindi</ion-select-option>
+        <ion-select-option value="b">Bengali</ion-select-option>
+      </ion-select>
+    </ion-item>
   </ion-toolbar>
 </ion-header>
-
-<ion-content>
-
+<ion-content class = "background-image">
+  <div id="container">
+    <strong>How to use the app?</strong><br>
+    <p>
+      In this app a user will enter all the symptoms he/she is currently facing<br>
+      The outcome of the app will be dashboard showing the current situation of the user's <br>
+      local healthcare facilities and ralated vacancies. It will also show a forecast for the <br>
+      vacancies and treatments available for various illness. A probable state of the person <br>
+      will also be displayed based on which, a user can decide the urgency of the occuring symptoms<br>
+    </p>
+    <p style="margin-top: 20px;">The administrator access and data modification access will be given to <br>
+    the hospital and medical health planners who will update the vacancies based on which various forecast will be shown</p>
+    <p style="margin-top: 20px;">The data given to us in the upcoming questionaire and your pincode will be used in our <br>
+    forecasting model and prediction model. However your other personal information will remain confidential.<br> 
+    By clicking on the "Proceed to questions" button <br> you agree to our these terms and wish to continue </p>
+  
+  </div>
+  <ion-button class="button" href="questions">Proceed to questions</ion-button>
 </ion-content>

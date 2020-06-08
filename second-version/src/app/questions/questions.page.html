@@ -1,9 +1,80 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>questions</ion-title>
+  <ion-toolbar style="--background: rgb(65, 119, 218);">
+    <ion-buttons slot="end">
+      <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+    </ion-buttons>
+    <ion-item style="width: 300px;--background: rgb(78, 126, 216);">
+      <ion-label>Language</ion-label>
+      <ion-select placeholder="Select" style="width: 250px;">
+        <ion-select-option value="e">English</ion-select-option>
+        <ion-select-option value="h">Hindi</ion-select-option>
+        <ion-select-option value="b">Bengali</ion-select-option>
+      </ion-select>
+    </ion-item>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content class = "background-image">
+<div class = "questions">
+  <ion-text>Question 1) Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nisi aperiam fuga iure?</ion-text>
+  <ion-list  style="margin-top: 20px; background: none;">
+    <ion-item style="--background: rgba(255, 248, 220, 0.555);">
+      <ion-label>option 1</ion-label>
+      <ion-checkbox slot="start" style = "--background: rgba(34, 139, 34, 0.562);"></ion-checkbox>
+    </ion-item>
+    <ion-item style="--background: rgba(255, 248, 220, 0.555);">
+      <ion-label>option 2</ion-label>
+      <ion-checkbox slot="start" style = "--background: rgba(34, 139, 34, 0.562);"></ion-checkbox>
+    </ion-item>
+    <ion-item style="--background: rgba(255, 248, 220, 0.555);">
+      <ion-label>option 3</ion-label>
+      <ion-checkbox slot="start" style = "--background: rgba(34, 139, 34, 0.562);"></ion-checkbox>
+    </ion-item>
+    <ion-item style="--background: rgba(255, 248, 220, 0.555);">
+      <ion-label>option 4</ion-label>
+      <ion-checkbox slot="start" style = "--background: rgba(34, 139, 34, 0.562);"></ion-checkbox>
+    </ion-item>
+  </ion-list>
+  <ion-text>Question 2) Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nisi aperiam fuga iure?</ion-text>
+  <ion-list style="margin-top: 20px; background: none;">
+    <ion-item style="--background: rgba(255, 248, 220, 0.555);">
+      <ion-label>option 1</ion-label>
+      <ion-checkbox slot="start" style = "--background: rgba(34, 139, 34, 0.562);"></ion-checkbox>
+    </ion-item>
+    <ion-item style="--background: rgba(255, 248, 220, 0.555);">
+      <ion-label>option 2</ion-label>
+      <ion-checkbox slot="start" style = "--background: rgba(34, 139, 34, 0.562);"></ion-checkbox>
+    </ion-item>
+    <ion-item style="--background: rgba(255, 248, 220, 0.555);">
+      <ion-label>option 3</ion-label>
+      <ion-checkbox slot="start" style = "--background: rgba(34, 139, 34, 0.562);"></ion-checkbox>
+    </ion-item>
+    <ion-item style="--background: rgba(255, 248, 220, 0.555);">
+      <ion-label>option 4</ion-label>
+      <ion-checkbox slot="start" style = "--background: rgba(34, 139, 34, 0.562);"></ion-checkbox>
+    </ion-item>
+  </ion-list >
+  <ion-text>Question 3) Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, nisi aperiam fuga iure?</ion-text>
+  <ion-list style="margin-top: 20px; background: none;">
+    <ion-item style="--background: rgba(255, 248, 220, 0.555);">
+      <ion-label>option 1</ion-label>
+      <ion-checkbox slot="start" style = "--background: rgba(34, 139, 34, 0.562);"></ion-checkbox>
+    </ion-item>
+    <ion-item style="--background: rgba(255, 248, 220, 0.555);">
+      <ion-label>option 2</ion-label>
+      <ion-checkbox slot="start" style = "--background: rgba(34, 139, 34, 0.562);"></ion-checkbox>
+    </ion-item>
+    <ion-item style="--background: rgba(255, 248, 220, 0.555);">
+      <ion-label>option 3</ion-label>
+      <ion-checkbox slot="start" style = "--background: rgba(34, 139, 34, 0.562);"></ion-checkbox>
+    </ion-item>
+    <ion-item style="--background: rgba(255, 248, 220, 0.555); --padding: 10px;">
+      <ion-label>option 4</ion-label>
+      <ion-checkbox slot="start" style = "--background: rgba(34, 139, 34, 0.562);"></ion-checkbox>
+    </ion-item>
+  </ion-list>
+</div>
+<ion-button shape = "round" expand = "block" style="width: 250px; margin-left: 43%; margin-top: 50px; margin-bottom: 50px;" href="results">
+   Show Results</ion-button>
 
 </ion-content>

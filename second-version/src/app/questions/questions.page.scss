@@ -1,0 +1,20 @@
+.background-image{
+    --background: url(../home/assets/back_3.png) no-repeat center center fixed;
+    background-size: cover;
+}
+.questions{
+
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    text-size-adjust: 50px;
+    background-color: rgba(128, 128, 128, 0.541);
+}
+.button-pos{
+    position: relative;
+    width:200px;
+    margin:auto;
+    margin-top:50vh;
+  
+  }

@@ -9,8 +9,9 @@
 }
 
 #container strong {
-  font-size: 20px;
+  font-size: 40px;
   line-height: 26px;
+  padding-top: 30px;
 }
 
 #container p {
@@ -24,4 +25,19 @@
 
 #container a {
   text-decoration: none;
+}
+
+ion-title{
+  text-align: center;
+}
+.background-image{
+  --background: url(../home/assets/back_3.png) no-repeat center center fixed;
+  background-size: cover;
+}
+.button-pos{
+  position: relative;
+  width:200px;
+  margin:auto;
+  margin-top:50vh;
+
 }

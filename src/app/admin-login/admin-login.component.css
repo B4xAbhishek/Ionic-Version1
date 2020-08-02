@@ -1,0 +1,33 @@
+mat-card-title {
+    color: #3f51b5;
+    font-size: 24px;
+}
+
+mat-card-header{
+    padding: 5px;
+    border-bottom: 3px solid #ff4081;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+.field-container {
+    margin: 0.5em;
+}
+
+.form-div {
+    padding: 25px 25em;
+    justify-content: center
+}
+
+p {
+    margin-bottom: 10px; 
+    padding: 5px;
+    width: 50%;
+    background-color: #ffeeee;
+    border: 2px solid red;
+    border-radius: 8px;
+    font-size: 16px;
+    color: red;
+}
